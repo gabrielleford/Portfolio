@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: 'Poppins';
+    src: url(./assets/PoppinsExtraLight.ttf) format("truetype");
+    font-weight: 1 999;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Poppins Light';
+  src: url(./assets/PoppinsLight.ttf) format('truetype');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url(./assets/PoppinsRegular.ttf);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url(./assets/RalewayVariableFontwght.ttf) format("truetype");
+    font-weight: 1 999;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background-color: #fff;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 300;
+  margin-bottom: 75px;
+  background-color: #F9CFC0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navHeader {
+  text-shadow: 0.5px 2.8px 3px rgba(0, 109, 119, 0.5);
+}
+
+.navLink {
+  font-family: 'Poppins Light', sans-serif;
+  text-shadow: 0.5px 2.8px 3px rgba(0, 109, 119, 0.5);
+}
+
+.sectionHeader {
+  text-shadow: 0.5px 2.8px 3px rgba(0, 109, 119, 0.5);
 }
