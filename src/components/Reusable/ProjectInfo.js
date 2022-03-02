@@ -7,8 +7,8 @@ const ProjectInfo = (props) => {
 
   return (
     <>
-      <a href='https://mealprepmarket.herokuapp.com' target='_blank' rel='noreferrer' className='group h-80 mx-auto'>
-        <img src={props.img} alt={props.title} className='h-80 rounded-l-xl shadow-xl group-hover:shadow-2xl transition-all duration-300' />
+      <a href='https://mealprepmarket.herokuapp.com' target='_blank' rel='noreferrer' className='group h-96 mx-auto'>
+        <img src={props.img} alt={props.title} className='h-96 rounded-xl shadow-xl group-hover:shadow-2xl transition-all duration-300' />
       </a>
       <div className={props.positionClass}>
         <div className={props.linkClass}>
@@ -18,11 +18,11 @@ const ProjectInfo = (props) => {
           <MdOpenInNew/>
         </div>
         <div className={open ? `${props.viewDetailsClassOpen}`: `${props.viewDetailsClass}`} onClick={() => setOpen(!open)}>
-          <p>View details</p>
+          <p className='font-normal'>{open ? 'Hide details' : 'View details' }</p>
           <BsArrowDownShort className={open ? 'rotate-neg180 transition-all duration-500' : 'transition-all duration-500'}/>
         </div>
         <div className='overflow-hidden'>
-          <div className={open ? 'relative flex flex-col max-w-sm bg-dark-peach px-4 py-2 bottom-0 transition-all duration-500' : 'relative flex flex-col max-w-sm bg-dark-peach px-4 py-2 bottom-48 transition-all duration-500' }>
+          <div className={open ? 'relative flex flex-col max-w-sm bg-dark-peach px-4 py-2 bottom-0 transition-all duration-500' : 'relative flex flex-col max-w-sm bg-dark-peach px-4 py-2 bottom-56 transition-all duration-500' }>
             <p className='text-dark-text font-normal'>
               {props.description}
             </p>
