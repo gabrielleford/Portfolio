@@ -12,7 +12,11 @@ module.exports = {
       'peach': '#F9CFC0',
       'light-peach': '#FFDDD2'
     },
-    extend: {},
+    extend: {
+      rotate: {
+        'neg180': '-180deg',
+      }
+    },
     fontFamily: {
       'display': ['Poppins'],
       'body': ['"Red Hat Display"'],
