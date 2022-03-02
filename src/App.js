@@ -1,7 +1,7 @@
 import './App.css';
 // import Navbar from './components/Navbar';
 import About from './components/About';
-import Portfolio from './components/Portfolio';
+import Projects from './components/Projects';
 // import DevTools from './components/DevTools';
 // import Contact from './components/Contact';
 // import Quotes from './components/Quotes';
@@ -13,7 +13,7 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
   const about = 'about';
-  const portfolio = 'portfolio';
+  const projects = 'projects';
   const devtools = 'devtools';
   const contact = 'contact';
 
@@ -25,7 +25,7 @@ function App() {
     <>
       <Navbar />
       <About about={about} />
-      <Portfolio portfolio={portfolio} />
+      <Projects projects={projects} />
       {/* <MobileNavbar isOpen={isOpen} setIsOpen={setIsOpen} toggle={toggle} />
       <Navbar isOpen={isOpen} toggle={toggle} /> */}
       {/* <Quotes />

@@ -14,7 +14,7 @@ const Navbar = () => {
         <Link
           className='text-xl text-dark-teal px-3 py-0.5 border-r-2 border-dark-peach h-fit cursor-pointer hover:bg-light-peach navLink'
         >
-          Portfolio
+          Projects
         </Link>
         <Link
           className='text-xl text-dark-teal px-3 py-0.5 border-r-2 border-dark-peach h-fit cursor-pointer hover:bg-light-peach navLink'
