@@ -20,6 +20,12 @@
     font-weight: 1 999;
 }
 
+@font-face {
+  font-family: 'Inconsolata';
+  src: url(./assets/InconsolataVariableFontwdthwght.ttf) format("truetype");
+  font-weight: 1 999;
+}
+
 body {
   background-color: #fff;
   font-family: 'Red Hat Display', sans-serif;

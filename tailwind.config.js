@@ -16,7 +16,8 @@ module.exports = {
     fontFamily: {
       'display': ['Poppins'],
       'body': ['"Red Hat Display"'],
-      'poppins-regular': ['Poppins Regular']
+      'poppins-regular': ['Poppins Regular'],
+      'inconsolata': ['Inconsolata'],
     }
   },
   plugins: [],
