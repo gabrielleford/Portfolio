@@ -1,6 +1,6 @@
 import mealPrepMarket from '../../assets/mealPrepMarket.png';
 import instaPet from '../../assets/instaPet.png';
-import threeDayProject from '../../assets/72HourProject.png';
+import threeDayProject from '../../assets/72hourProject.png';
 import rickAndMorty from '../../assets/rickandmorty.png';
 
 export const MealPrepMarket = {
@@ -16,9 +16,8 @@ export const MealPrepMarket = {
   frontEnd: ['React', 'TypeScript', 'Mantine', 'Styled-Components'],
   backEnd: ['Node.js', 'Express.js', 'Sequelize', 'PostgreSQL'],
   positionClass: 'absolute right-0 top-10 flex flex-col',
-  linkClass: 'flex items-center text-xl text-dark-teal font-poppins-regular px-2 py-1 mb-1 bg-dark-peach rounded-md w-fit hover:bg-teal shadow-md transition-all duration-200',
-  viewDetailsClass: 'font-normal flex items-center mr-auto mt-3 bg-dark-peach text-dark-teal px-4 pt-2 pb-1 rounded-md hover:bg-teal cursor-pointer shadow-md transition-all duration-200',
-  viewDetailsClassOpen: 'font-normal flex items-center mr-auto mt-3 bg-dark-peach text-dark-teal px-4 pt-2 rounded-t-md hover:bg-teal cursor-pointer transition-all duration-200'
+  linkClass: 'flex items-center justify-center text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach shadow-md transition-all duration-200',
+
 }
 
 export const InstaPet = {
@@ -33,24 +32,20 @@ export const InstaPet = {
   frontEnd: ['React'],
   backEnd: ['Node.js', 'Express.js', 'Sequelize', 'PostgreSQL'],
   positionClass: 'absolute right-0 top-10 flex flex-col',
-  linkClass: 'flex items-center text-xl text-dark-teal font-poppins-regular px-2 py-1 mb-1 bg-dark-peach rounded-md w-fit hover:bg-teal shadow-md transition-all duration-200',
-  viewDetailsClass: 'font-normal flex items-center mr-auto mt-3 bg-dark-peach text-dark-teal px-4 pt-2 pb-1 rounded-md hover:bg-teal cursor-pointer shadow-md transition-all duration-200',
-  viewDetailsClassOpen: 'font-normal flex items-center mr-auto mt-3 bg-dark-peach text-dark-teal px-4 pt-2 rounded-t-md hover:bg-teal cursor-pointer transition-all duration-200'
+  linkClass: 'flex items-center justify-center text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach shadow-md transition-all duration-200',
 }
 
 export const ThreeDayProject = {
-  title: 'InstaPet',
-  url: 'https://gfks-instapet-client.herokuapp.com',
+  title: '72 Hour Project',
+  url: 'https://ksgf-72hourproject.herokuapp.com/',
   img: threeDayProject,
   repos: {
     client: '',
   },
-  description: 'A web application that I worked on with Katie Sallows. It fetches a users location and displays the local weather, a satellite image from NASA\'s API, and upcoming events nearby.',
+  description: 'A web application which was completed in 3 days that I worked on with Katie Sallows. It fetches a users location and displays the local weather, a satellite image from NASA\'s API, and upcoming events nearby.',
   frontEnd: ['React', 'Nasa API', 'OpenWeatherMap API', 'Ticketmaster API'],
   positionClass: 'absolute right-0 top-10 flex flex-col',
-  linkClass: 'flex items-center text-xl text-dark-teal font-poppins-regular px-2 py-1 mb-1 bg-dark-peach rounded-md w-fit hover:bg-teal shadow-md transition-all duration-200',
-  viewDetailsClass: 'font-normal flex items-center mr-auto mt-3 bg-dark-peach text-dark-teal px-4 pt-2 pb-1 rounded-md hover:bg-teal cursor-pointer shadow-md transition-all duration-200',
-  viewDetailsClassOpen: 'font-normal flex items-center mr-auto mt-3 bg-dark-peach text-dark-teal px-4 pt-2 rounded-t-md hover:bg-teal cursor-pointer transition-all duration-200'
+  linkClass: 'flex items-center justify-center text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach shadow-md transition-all duration-200',
 }
 
 export const RickAndMortyDatabase = {
@@ -63,7 +58,5 @@ export const RickAndMortyDatabase = {
   description: 'A web application that utilizes the Rick and Morty API and displays characters in a card style with the ability to view more information for each character. I used it as a way to create a responsive web application without using a CSS framework.',
   frontEnd: ['React', 'Rick and Morty API', 'CSS 3'],
   positionClass: 'absolute right-0 top-10 flex flex-col',
-  linkClass: 'flex items-center text-xl text-dark-teal font-poppins-regular px-2 py-1 mb-1 bg-dark-peach rounded-md w-fit hover:bg-teal shadow-md transition-all duration-200',
-  viewDetailsClass: 'font-normal flex items-center mr-auto mt-3 bg-dark-peach text-dark-teal px-4 pt-2 pb-1 rounded-md hover:bg-teal cursor-pointer shadow-md transition-all duration-200',
-  viewDetailsClassOpen: 'font-normal flex items-center mr-auto mt-3 bg-dark-peach text-dark-teal px-4 pt-2 rounded-t-md hover:bg-teal cursor-pointer transition-all duration-200'
+  linkClass: 'flex items-center justify-center text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach shadow-md transition-all duration-200',
 }
