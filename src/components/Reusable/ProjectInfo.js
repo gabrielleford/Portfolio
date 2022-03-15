@@ -17,7 +17,7 @@ const ProjectInfo = (props) => {
             <div className='flex'>
               {props.frontEnd.map(tech => {
                 return (
-                  <p className='text-sm font-inconsolata bg-light-peach mr-2 px-1 rounded-sm w-fit'>{tech}</p>
+                  <p className='text-sm text-dark-text font-inconsolata bg-light-peach mr-2 px-1 rounded-sm w-fit'>{tech}</p>
                 )
               })}
             </div>
@@ -25,7 +25,7 @@ const ProjectInfo = (props) => {
               <div className='flex'>            
                 {props.backEnd.map(tech => {
                   return (
-                    <p className='text-sm font-inconsolata bg-light-peach mr-2 px-1 rounded-sm w-fit'>{tech}</p>
+                    <p className='text-sm text-dark-text font-inconsolata bg-light-peach mr-2 px-1 rounded-sm w-fit'>{tech}</p>
                   )
                 })}
               </div>
