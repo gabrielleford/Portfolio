@@ -4,14 +4,14 @@ import { MdOpenInNew } from 'react-icons/md';
 const ProjectInfo = (props) => {
   return (
     <>
-      <div className='absolute space-y-5 inset-x-2 inset-y-10 z-10 peer'>
+      <div className='absolute space-y-5 inset-0 z-10 pt-5 w-full h-full peer'>
         <div className={props.linkClass}>
           <a href={props.url} target='_blank' rel='noreferrer'>
             {props.title}
           </a>
           <MdOpenInNew/>
         </div>
-        <div className='relative space-y-4 flex flex-col max-w-lg mx-auto bg-dark-peach px-4 py-4 rounded-sm'>
+        <div className='relative space-y-4 flex flex-col max-w-lg mx-auto bg-dark-peach px-4 py-4 rounded-sm drop-shadow-[0_3px_10px_rgba(0,0,0,0.4)]'>
           <p className='text-dark-text'>{props.description}</p>
           <div className='space-y-2 mx-auto'>
             <div className='flex'>

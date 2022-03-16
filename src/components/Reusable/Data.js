@@ -16,7 +16,7 @@ export const MealPrepMarket = {
   frontEnd: ['React', 'TypeScript', 'Mantine', 'Styled-Components'],
   backEnd: ['Node.js', 'Express.js', 'Sequelize', 'PostgreSQL'],
   positionClass: 'absolute right-0 top-10 flex flex-col',
-  linkClass: 'flex items-center justify-center text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach shadow-md transition-all duration-200',
+  linkClass: 'flex items-center justify-center text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach drop-shadow-[0_0_7px_rgba(0,0,0,0.4)] transition-all duration-200',
 
 }
 
@@ -32,7 +32,7 @@ export const InstaPet = {
   frontEnd: ['React'],
   backEnd: ['Node.js', 'Express.js', 'Sequelize', 'PostgreSQL'],
   positionClass: 'absolute right-0 top-10 flex flex-col',
-  linkClass: 'flex items-center justify-center text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach shadow-md transition-all duration-200',
+  linkClass: 'flex items-center justify-center text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach shadow-md transition-all duration-200 drop-shadow-[0_0_7px_rgba(0,0,0,0.4)]',
 }
 
 export const ThreeDayProject = {
@@ -45,7 +45,7 @@ export const ThreeDayProject = {
   description: 'A web application which was completed in 3 days that I worked on with Katie Sallows. It fetches a users location and displays the local weather, a satellite image from NASA\'s API, and upcoming events nearby.',
   frontEnd: ['React', 'Nasa API', 'OpenWeatherMap API', 'Ticketmaster API'],
   positionClass: 'absolute right-0 top-10 flex flex-col',
-  linkClass: 'flex items-center justify-center text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach shadow-md transition-all duration-200',
+  linkClass: 'flex items-center justify-center text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach shadow-md transition-all duration-200 drop-shadow-[0_0_7px_rgba(0,0,0,0.4)]',
 }
 
 export const RickAndMortyDatabase = {
@@ -58,5 +58,5 @@ export const RickAndMortyDatabase = {
   description: 'A web application that utilizes the Rick and Morty API and displays characters in a card style with the ability to view more information for each character. I used it as a way to create a responsive web application without using a CSS framework.',
   frontEnd: ['React', 'Rick and Morty API', 'CSS 3'],
   positionClass: 'absolute right-0 top-10 flex flex-col',
-  linkClass: 'flex items-center justify-center text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach shadow-md transition-all duration-200',
+  linkClass: 'flex items-center justify-center text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach shadow-md transition-all duration-200 drop-shadow-[0_0_7px_rgba(0,0,0,0.4)]',
 }

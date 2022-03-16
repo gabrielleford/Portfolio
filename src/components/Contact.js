@@ -1,7 +1,7 @@
 const Contact = ({ contact }) => {
     return (
       <div>
-          <div id={contact} className='py-12'>
+          <div id={contact} className='py-12 mb-14'>
               <h2 className='mb-8 ml-48 text-5xl text-dark-teal font-display sectionHeader'>Contact</h2>
               <div>
                 <form action='https://formspree.io/f/myylvdwp' method='POST' className="grid space-y-7 max-w-screen-md mx-auto bg-dark-peach px-9 py-7 rounded-md shadow-2xl">
@@ -20,6 +20,9 @@ const Contact = ({ contact }) => {
                   <button type='submit' className="font-poppins-light text-dark-teal text-xl w-fit px-3 py-1 mx-auto bg-peach shadow-lg rounded-[5px] transition-all duration-300 ease-in-out border border-light-peach/75 hover:bg-light-peach formBtn">Submit</button>
                 </form>
               </div>
+          </div>
+          <div className="font-poppins-light bg-dark-peach text-dark-teal py-4 text-center">
+            <p>Gabrielle Ford © 2022</p>
           </div>
       </div>
     )
