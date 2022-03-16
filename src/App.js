@@ -3,7 +3,7 @@ import './App.css';
 import About from './components/About';
 import Projects from './components/Projects';
 import DevTools from './components/DevTools';
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
 // import Quotes from './components/Quotes';
 // import MobileNavbar from './components/MobileNavbar';
 import { useState } from 'react';
@@ -27,10 +27,10 @@ function App() {
       <About about={about} />
       <Projects projects={projects} />
       <DevTools devtools={devtools} />
+      <Contact contact={contact} />
       {/* <MobileNavbar isOpen={isOpen} setIsOpen={setIsOpen} toggle={toggle} />
       <Navbar isOpen={isOpen} toggle={toggle} /> */}
-      {/* <Quotes />
-      <Contact contact={contact} /> */}
+      {/* <Quotes /> */}
     </>
   );
 }
