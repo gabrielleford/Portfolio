@@ -4,7 +4,7 @@ import { MdOpenInNew } from 'react-icons/md';
 const ProjectInfo = (props) => {
   return (
     <>
-      <div className='absolute space-y-10 inset-x-2 inset-y-10 z-10 peer'>
+      <div className='absolute space-y-5 inset-x-2 inset-y-10 z-10 peer'>
         <div className={props.linkClass}>
           <a href={props.url} target='_blank' rel='noreferrer'>
             {props.title}
@@ -34,7 +34,7 @@ const ProjectInfo = (props) => {
         </div>
       </div>
       <div className='relative after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-light-peach/50 after:transition-all after:duration-300 after:ease-in-out transition-all duration-300 ease-in-out after:peer-hover:bg-light-peach/[.15] peer-hover:scale-110'>
-        <img src={props.img} alt={props.title}/>
+        <img src={props.img} alt={props.title} className='object-cover'/>
       </div>
     </>
   )

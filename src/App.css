@@ -60,3 +60,11 @@ html {
 .sectionHeader {
   text-shadow: 0.5px 2.8px 3px rgba(0, 109, 119, 0.5);
 }
+
+.formLabel {
+  text-shadow: 0.5px 1px 3px rgba(0, 109, 119, 0.5);
+}
+
+.formBtn {
+  text-shadow: 0.3px 0.5px 3px rgba(0, 109, 119, 0.3);
+}
