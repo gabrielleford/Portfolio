@@ -3,9 +3,9 @@ import { SiExpress, SiFirebase, SiSequelize, SiStyledcomponents, SiTailwindcss, 
 
 const DevTools = ({ devtools}) => {
     return (
-      <div id={devtools} className='bg-dark-peach py-12'>
-        <h2 className='mb-8 ml-48 text-5xl text-light-peach font-display sectionHeader'>Dev Tools</h2>
-        <div id='devToolDiv' className='mx-64 grid grid-cols-6 gap-x-0 gap-y-3.5 text-dark-text font-display'>
+      <div id='devTools' className='bg-dark-peach pt-6 pb-14 lg:pt-12 lg:pb-20'>
+        <h2 className='text-3xl text-center mb-5 sm:mb-8 lg:text-justify lg:ml-48 sm:text-5xl text-light-peach font-display sectionHeader'>Dev Tools</h2>
+        <div id={devtools} className='lg:mx-64 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-x-0 gap-y-3.5 text-dark-text font-display'>
           <div className='m-auto text-center'>
             <DiHtml5 className='text-5xl mx-auto'/>
             <p>HTML5</p>

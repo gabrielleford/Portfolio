@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar about={about} projects={projects} devtools={devtools} contact={contact} />
       <About about={about} />
       <Projects projects={projects} />
       <DevTools devtools={devtools} />

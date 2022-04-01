@@ -58,5 +58,8 @@ export const RickAndMortyDatabase = {
   description: 'A web application that utilizes the Rick and Morty API and displays characters in a card style with the ability to view more information for each character. I used it as a way to create a responsive web application without using a CSS framework.',
   frontEnd: ['React', 'Rick and Morty API', 'CSS 3'],
   positionClass: 'absolute right-0 top-10 flex flex-col',
-  linkClass: 'flex items-center justify-center text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach shadow-md transition-all duration-200 drop-shadow-[0_0_7px_rgba(0,0,0,0.4)]',
+  linkClass: 'flex items-center justify-center text-lg sm:text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach shadow-md transition-all duration-200 drop-shadow-[0_0_7px_rgba(0,0,0,0.4)]',
 }
+
+export const hidden = 'opacity'
+export const visible = ''
