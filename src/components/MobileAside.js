@@ -29,7 +29,10 @@ const MobileAside = (props) => {
       </div>
       <div className='grid gap-y-0 py-16 text-center text-dark-teal text-4xl'>
         <Link 
-          onClick={() => toggleTop()}
+          onClick={() => {
+            toggleTop()
+            props.setIsOpen(!props.isOpen)
+          }}
           className={visible ? 'cursor-pointer h-fit opacity-100 navLink py-6 border-b-4 border-b-dark-peach hover:bg-light-peach active:bg-teal transition-all ease-in-out duration-300' : 'cursor-pointer h-0 opacity-0 navLink py-0 border-none hover:bg-light-peach active:bg-teal transition-all ease-out duration-300'}
         >
           Back to top
