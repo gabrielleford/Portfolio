@@ -61,5 +61,12 @@ export const RickAndMortyDatabase = {
   linkClass: 'flex items-center justify-center text-lg sm:text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach shadow-md transition-all duration-200 drop-shadow-[0_0_7px_rgba(0,0,0,0.4)]',
 }
 
-export const hidden = 'opacity'
-export const visible = ''
+export const NavbarClass = {
+  hidden: 'top-[-100%] transition-all ease-in-out duration-300 flex sticky py-3 mt-5 mb-6 w-full bg-peach z-20 justify-end items-center lg-xl:hidden',
+  visible: 'flex sticky py-3 mt-5 mb-6 top-0 w-full bg-peach z-20 justify-end items-center lg-xl:hidden transition-all ease-in-out duration-300',
+}
+
+export const AsideClass = {
+  hidden: 'fixed top-[-100%] opacity-0 transition-all ease-in-out duration-300 bg-peach z-50 right-0 pt-8 w-full',
+  visible: 'bg-peach z-50 fixed top-0 right-0 w-full h-screen pt-8 opacity-100 transition-all ease-in-out duration-300',
+}

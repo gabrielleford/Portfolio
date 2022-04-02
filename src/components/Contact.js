@@ -1,3 +1,5 @@
+import { BsFileEarmarkPdfFill, BsGithub, BsLinkedin } from 'react-icons/bs';
+
 const Contact = ({ contact }) => {
     return (
       <div id={contact}>
@@ -19,6 +21,17 @@ const Contact = ({ contact }) => {
                   </div>
                   <button type='submit' className="font-poppins-light text-dark-teal text-xl w-fit px-3 py-1 mx-auto bg-peach shadow-lg rounded-[5px] transition-all duration-300 ease-in-out border border-light-peach/75 hover:bg-light-peach formBtn">Submit</button>
                 </form>
+              </div>
+              <div className='flex justify-center px-4 mt-10 space-x-7 text-dark-teal lg-xl:hidden'>
+                <a href="../assets/GabrielleFord'sResume.pdf" download className='transition-all ease-in-out duration-200 hover:scale-110'>
+                  <BsFileEarmarkPdfFill className='text-3xl'/>
+                </a>
+                <a href="https://www.linkedin.com/in/fdgabrielle" target="_blank" rel='noreferrer' className='transition-all ease-in-out duration-200 hover:scale-110'>
+                  <BsLinkedin className='text-3xl'/>
+                </a>
+                <a href='https://github.com/gabrielleford' target="_blank" rel='noreferrer' className='transition-all ease-in-out duration-200 hover:scale-110'>
+                  <BsGithub className='text-3xl'/>
+                </a>
               </div>
           </div>
           <div className="font-poppins-light bg-dark-peach text-dark-teal py-4 text-center">
