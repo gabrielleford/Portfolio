@@ -1,9 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-scroll';
-import { BsFileEarmarkPdfFill, BsGithub, BsLinkedin } from 'react-icons/bs';
+import { animateScroll as scroll } from "react-scroll/modules";
+import { BsArrowUp, BsFileEarmarkPdfFill, BsGithub, BsLinkedin } from 'react-icons/bs';
 import { HiMenu } from 'react-icons/hi';
 
 const Navbar = (props) => {
+  const [visible, setVisible] = useState(false);
+
+  const toggleVisible = () => {
+    const scrolled = document.documentElement.scrollTop;
+    if (scrolled > 200) {
+      setVisible(true);
+    } else if (scrolled <= 200) {
+      setVisible(false);
+    }
+  }
+
+  const toggleTop = () => {
+    scroll.scrollToTop();
+  }
+
+  window.addEventListener('scroll', toggleVisible);
+
   return (
     <>
       <h1 className='text-3xl text-dark-teal z-30 top-7 font-display absolute left-5 xs:text-5xl sm:text-7xl lg-xl:text-8xl xl:top-14 lg-xl:left-16 lg-xl:w-28 xl:w-fit navHeader'>Gabrielle Ford</h1>
@@ -14,6 +32,9 @@ const Navbar = (props) => {
         {/* <h1>Gabrielle Ford</h1> */}
         <div className='grid space-y-4'>
           <div className='flex justify-evenly'>
+            <Link>
+              <BsArrowUp onClick={() => toggleTop()} className={visible ? 'text-xl text-dark-teal px-1 py-1.5 h-fit w-fit opacity-100 cursor-pointer transition-all ease-in-out duration-100' : 'text-xl text-dark-teal px-1 py-1.5 h-fit w-fit opacity-0 cursor-pointer active:bg-teal transition-all ease-in-out duration-100' } />
+            </Link>
             <Link
               className='text-xl text-dark-teal px-3 py-0.5 border-r-2 border-dark-peach h-fit cursor-pointer rounded-l-lg active:bg-teal hover:bg-light-peach transition-all ease-in-out duration-100 navLink'
               isDynamic={true}

@@ -1,15 +1,39 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-scroll';
+import { animateScroll as scroll } from "react-scroll/modules";
 import { HiX } from 'react-icons/hi'
 import { BsFileEarmarkPdfFill, BsGithub, BsLinkedin } from 'react-icons/bs';
 
 const MobileAside = (props) => {
+  const [visible, setVisible] = useState(false);
+
+  const toggleVisible = () => {
+    const scrolled = document.documentElement.scrollTop;
+    if (scrolled > 200) {
+      setVisible(true);
+    } else if (scrolled <= 200) {
+      setVisible(false);
+    }
+  }
+
+  const toggleTop = () => {
+    scroll.scrollToTop();
+  }
+
+  window.addEventListener('scroll', toggleVisible);
+
   return (
     <div onClick={() => props.setIsOpen(!props.isOpen)} className={props.isOpen ? props.visible : props.hidden}>
       <div className='absolute right-4 xs:right-2 text-2xl xs:text-4xl sm:text-5xl sm:right-10 cursor-pointer text-dark-teal'>
         <HiX />
       </div>
       <div className='grid gap-y-0 py-16 text-center text-dark-teal text-4xl'>
+        <Link 
+          onClick={() => toggleTop()}
+          className={visible ? 'cursor-pointer h-fit opacity-100 navLink py-6 border-b-4 border-b-dark-peach hover:bg-light-peach active:bg-teal transition-all ease-in-out duration-300' : 'cursor-pointer h-0 opacity-0 navLink py-0 border-none hover:bg-light-peach active:bg-teal transition-all ease-out duration-300'}
+        >
+          Back to top
+        </Link>
         <Link
           className='cursor-pointer navLink py-6 border-b-4 border-b-dark-peach hover:bg-light-peach active:bg-teal'
           onClick={() => props.setIsOpen(!props.isOpen)}
