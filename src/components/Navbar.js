@@ -85,7 +85,7 @@ const Navbar = (props) => {
             </Link>
           </div>
           <div className='flex px-4 justify-end space-x-7 text-dark-teal '>
-            <a href="../assets/GabrielleFord'sResume.pdf" download className='transition-all ease-in-out duration-200 hover:scale-110'>
+            <a href="../assets/GabrielleFordsResume.pdf" download className='transition-all ease-in-out duration-200 hover:scale-110'>
               <BsFileEarmarkPdfFill className='text-3xl'/>
             </a>
             <a href="https://www.linkedin.com/in/fdgabrielle" target="_blank" rel='noreferrer' className='transition-all ease-in-out duration-200 hover:scale-110'>

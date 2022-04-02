@@ -23,7 +23,7 @@ const Contact = ({ contact }) => {
                 </form>
               </div>
               <div className='flex justify-center px-4 mt-10 space-x-7 text-dark-teal lg-xl:hidden'>
-                <a href="../assets/GabrielleFord'sResume.pdf" target="_blank" rel='noreferrer' className='transition-all ease-in-out duration-200 hover:scale-110'>
+                <a href="../assets/GabrielleFordsResume.pdf" target="_blank" rel='noreferrer' className='transition-all ease-in-out duration-200 hover:scale-110'>
                   <BsFileEarmarkPdfFill className='text-3xl'/>
                 </a>
                 <a href="https://www.linkedin.com/in/fdgabrielle" target="_blank" rel='noreferrer' className='transition-all ease-in-out duration-200 hover:scale-110'>
