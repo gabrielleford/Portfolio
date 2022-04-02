@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1514d0fb.css",
-    "main.js": "/static/js/main.d74ff506.js",
+    "main.js": "/static/js/main.067148b7.js",
     "static/media/instaPet.png": "/static/media/instaPet.f8f9d2234b13df16af3b.png",
     "static/media/mealPrepMarket.png": "/static/media/mealPrepMarket.4d58b8a01fd251b20dba.png",
     "static/media/rickandmorty.png": "/static/media/rickandmorty.d93995008d96cb062239.png",
@@ -14,10 +14,10 @@
     "static/media/PoppinsRegular.ttf": "/static/media/PoppinsRegular.35d26b781dc5fda684cc.ttf",
     "index.html": "/index.html",
     "main.1514d0fb.css.map": "/static/css/main.1514d0fb.css.map",
-    "main.d74ff506.js.map": "/static/js/main.d74ff506.js.map"
+    "main.067148b7.js.map": "/static/js/main.067148b7.js.map"
   },
   "entrypoints": [
     "static/css/main.1514d0fb.css",
-    "static/js/main.d74ff506.js"
+    "static/js/main.067148b7.js"
   ]
 }
