@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc723c4d.css",
-    "main.js": "/static/js/main.439a166a.js",
+    "main.css": "/static/css/main.c9a47b99.css",
+    "main.js": "/static/js/main.d74ff506.js",
     "static/media/instaPet.png": "/static/media/instaPet.f8f9d2234b13df16af3b.png",
     "static/media/mealPrepMarket.png": "/static/media/mealPrepMarket.4d58b8a01fd251b20dba.png",
     "static/media/rickandmorty.png": "/static/media/rickandmorty.d93995008d96cb062239.png",
@@ -13,11 +13,11 @@
     "static/media/PoppinsLight.ttf": "/static/media/PoppinsLight.7641a0f76ca9ef6c252c.ttf",
     "static/media/PoppinsRegular.ttf": "/static/media/PoppinsRegular.35d26b781dc5fda684cc.ttf",
     "index.html": "/index.html",
-    "main.dc723c4d.css.map": "/static/css/main.dc723c4d.css.map",
-    "main.439a166a.js.map": "/static/js/main.439a166a.js.map"
+    "main.c9a47b99.css.map": "/static/css/main.c9a47b99.css.map",
+    "main.d74ff506.js.map": "/static/js/main.d74ff506.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc723c4d.css",
-    "static/js/main.439a166a.js"
+    "static/css/main.c9a47b99.css",
+    "static/js/main.d74ff506.js"
   ]
 }
