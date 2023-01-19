@@ -12,8 +12,8 @@ const ProjectInfo = (props) => {
           <MdOpenInNew/>
         </div>
         <div className='relative space-y-4 flex flex-col max-w-lg mx-auto bg-none sm:bg-dark-peach px-4 py-4 rounded-sm drop-shadow-[0_-1px_3px_rgba(0,0,0,0.2)] sm:drop-shadow-[0_3px_10px_rgba(0,0,0,0.4)]'>
-          <p className='text-dark-text'>{props.description}</p>
-          <div className='flex sm:space-y-2 mx-auto sm:block'>
+          <p className='cursor-default text-dark-text'>{props.description}</p>
+          <div className='cursor-default flex sm:space-y-2 mx-auto sm:block'>
             <div className='space-y-2 sm:flex sm:space-y-0'>
               {props.frontEnd.map(tech => {
                 return (
