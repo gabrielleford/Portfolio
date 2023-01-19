@@ -1,7 +1,21 @@
+import blissEventSpace from '../../assets/blissEventSpace.webp';
 import mealPrepMarket from '../../assets/mealPrepMarket.webp';
 // import instaPet from '../../assets/instaPet.png';
 import threeDayProject from '../../assets/72hourProject.webp';
 import rickAndMorty from '../../assets/rickandmorty.webp';
+
+export const BlissEventSpace = {
+  title: 'Bliss Event Space',
+  url: 'https://blissspaceindy.com/',
+  img: blissEventSpace,
+  repos: {
+    client: ''
+  },
+  description: 'Bliss Event Space is an event venue that hired me for my first freelance job. I worked closely with the client, built a wireframe, coded the website, deployed it and connected it to a custom domain name. As their information, vendors and gallery images change, I continue to update it accordingly.',
+  frontEnd: ['React', 'CSS', 'Tailwind CSS'],
+  positionClass: 'absolute right-0 top-10 flex flex-col',
+  linkClass: 'flex items-center justify-center text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach drop-shadow-[0_0_7px_rgba(0,0,0,0.4)] transition-all duration-200',
+}
 
 export const MealPrepMarket = {
   title: 'Meal Prep Market',
