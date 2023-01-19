@@ -25,7 +25,7 @@ const Navbar = (props) => {
 
   return (
     <>
-      <h1 className='text-3xl text-dark-teal z-30 top-7 font-display absolute left-5 xs:text-5xl sm:text-7xl lg-xl:text-8xl xl:top-14 lg-xl:left-16 lg-xl:w-28 xl:w-fit navHeader'>Gabrielle Ford</h1>
+      <h1 className='cursor-default text-3xl text-dark-teal z-30 top-7 font-display absolute left-5 xs:text-5xl sm:text-7xl lg-xl:text-8xl xl:top-14 lg-xl:left-16 lg-xl:w-28 xl:w-fit navHeader'>Gabrielle Ford</h1>
       <div className={props.isOpen ? props.hidden : props.visible}>
         <HiMenu onClick={() => props.setIsOpen(!props.isOpen)} className='relative right-4 xs:right-2 text-2xl xs:text-4xl sm:text-5xl sm:right-10 cursor-pointer text-dark-teal' />
       </div>
