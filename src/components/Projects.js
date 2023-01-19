@@ -1,5 +1,5 @@
 import React from "react";
-import { InstaPet, MealPrepMarket, RickAndMortyDatabase, ThreeDayProject } from "./Reusable/Data";
+import { MealPrepMarket, RickAndMortyDatabase, ThreeDayProject } from "./Reusable/Data";
 import ProjectInfo from "./Reusable/ProjectInfo";
 
 
@@ -11,9 +11,9 @@ const Projects = ({ projects }) => {
             <div className='relative sm:flex col-span-1 sm:overflow-hidden'>
               <ProjectInfo {...MealPrepMarket} />
             </div>
-            <div className='relative sm:flex col-span-1 sm:overflow-hidden'>
+            {/* <div className='relative sm:flex col-span-1 sm:overflow-hidden'>
               <ProjectInfo {...InstaPet} />
-            </div>
+            </div> */}
             <div className='relative sm:flex col-span-1 sm:overflow-hidden'>
               <ProjectInfo {...ThreeDayProject} />
             </div>

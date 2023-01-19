@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import resume from '../assets/GabrielleFordsResume.pdf'
 import { Link } from 'react-scroll';
 import { animateScroll as scroll } from "react-scroll/modules";
 import { HiX } from 'react-icons/hi'
@@ -77,7 +78,7 @@ const MobileAside = (props) => {
           Contact
         </Link>
         <div className='flex justify-center px-4 mt-7 space-x-7 text-dark-teal'>
-          <a href="../assets/GabrielleFordsResume.pdf" target="_blank" rel='noreferrer' className='transition-all ease-in-out duration-200 hover:scale-110'>
+          <a href={resume} target="_blank" rel='noreferrer' className='transition-all ease-in-out duration-200 hover:scale-110'>
             <BsFileEarmarkPdfFill className='text-3xl'/>
           </a>
           <a href="https://www.linkedin.com/in/fdgabrielle" target="_blank" rel='noreferrer' className='transition-all ease-in-out duration-200 hover:scale-110'>

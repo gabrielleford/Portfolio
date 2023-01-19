@@ -1,7 +1,7 @@
-import mealPrepMarket from '../../assets/mealPrepMarket.png';
-import instaPet from '../../assets/instaPet.png';
-import threeDayProject from '../../assets/72hourProject.png';
-import rickAndMorty from '../../assets/rickandmorty.png';
+import mealPrepMarket from '../../assets/mealPrepMarket.webp';
+// import instaPet from '../../assets/instaPet.png';
+import threeDayProject from '../../assets/72hourProject.webp';
+import rickAndMorty from '../../assets/rickandmorty.webp';
 
 export const MealPrepMarket = {
   title: 'Meal Prep Market',
@@ -20,20 +20,20 @@ export const MealPrepMarket = {
 
 }
 
-export const InstaPet = {
-  title: 'InstaPet',
-  url: 'https://gfks-instapet-client.herokuapp.com',
-  img: instaPet,
-  repos: {
-    client: '',
-    server: '',
-  },
-  description: 'A full-stack web application that I worked on with Katie Sallows. Users can upload images of their pets, and share them. They can also like pictures, filter between tags, and filter between top liked posts and most recent posts.',
-  frontEnd: ['React'],
-  backEnd: ['Node.js', 'Express.js', 'Sequelize', 'PostgreSQL'],
-  positionClass: 'absolute right-0 top-10 flex flex-col',
-  linkClass: 'flex items-center justify-center text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach shadow-md transition-all duration-200 drop-shadow-[0_0_7px_rgba(0,0,0,0.4)]',
-}
+// export const InstaPet = {
+//   title: 'InstaPet',
+//   url: 'https://gfks-instapet-client.herokuapp.com',
+//   img: instaPet,
+//   repos: {
+//     client: '',
+//     server: '',
+//   },
+//   description: 'A full-stack web application that I worked on with Katie Sallows. Users can upload images of their pets, and share them. They can also like pictures, filter between tags, and filter between top liked posts and most recent posts.',
+//   frontEnd: ['React'],
+//   backEnd: ['Node.js', 'Express.js', 'Sequelize', 'PostgreSQL'],
+//   positionClass: 'absolute right-0 top-10 flex flex-col',
+//   linkClass: 'flex items-center justify-center text-xl text-dark-text font-poppins-regular mx-auto px-2 py-1 bg-dark-peach rounded-sm w-fit hover:bg-peach shadow-md transition-all duration-200 drop-shadow-[0_0_7px_rgba(0,0,0,0.4)]',
+// }
 
 export const ThreeDayProject = {
   title: '72 Hour Project',

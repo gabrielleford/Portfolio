@@ -1,4 +1,4 @@
-import headshot from '../assets/tempHeadshot.JPG'
+import headshot from '../assets/tempHeadshot.webp'
 
 const About = ({ about }) => {
     return(
